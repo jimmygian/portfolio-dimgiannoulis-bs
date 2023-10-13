@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dimitris G // Web Developer</title>
+  <link rel="stylesheet" href="./assets/css/reset.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+
+  <!-- ** Header ** -->
+
+  <header>
+    <!-- Navigation -->
+    <nav id="nav-bar" class="nav-container">
+      <a href="#about" class="nav-item">About me</a>
+      <a href="#work" class="nav-item">My work</a>
+      <a href="#contact" class="nav-item">Contact</a>
+    </nav>
+  
+    <!-- Hero Container -->
+    <div class="hero-container">
+
+      <!-- Hero Left (only on desktop mode / mobile landscape) -->
+      <div class="hero-side">
+        <h1>PORTFOLIO</h1>
+        <nav id="hero-nav-bar" class="hero-nav-container">
+          <a href="#about" class="hero-nav-item">About me</a>
+          <a href="#work" class="hero-nav-item">My work</a>
+          <a href="#contact" class="hero-nav-item">Contact</a>
+        </nav>
+      </div>
+      
+      <!-- Hero Right -->
+      <div class="hero-main">
+        <!-- picture / name -->
+        <div class="hero-pic">
+          <div class="hero-name-box">
+            <h2>DIMITRIS GIANNOULIS</h2>
+            <h3>Web Developer</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- ** Main ** -->
+
+  <main>
+    <!-- ABOUT ME Section -->
+    <section class="page-section" id="about">
+      <h2>A<span>BOUT</span></h2>
+      <p>
+        Hello there! I'm Dimitris Giannoulis, a web developer with a passion 
+        for crafting digital experiences that leave a lasting impression. 
+        With a background as an audio engineer, I've honed skills that seamlessly translate 
+        into the world of web development. 
+      </p>
+      <p>
+        I'm not only well-versed in the tools of the trade but also adept at quickly 
+        adapting to new workflows and thriving in fast-paced, collaborative environments.
+      </p>
+      <p>
+        Currently, my portfolio showcases three projects that I've poured my heart and soul into. 
+        However, my ambitions don't stop there. I'm driven by an insatiable 
+        curiosity and an unwavering commitment to lifelong learning. 
+        My goal is to continue expanding my knowledge and skills, pushing the boundaries of what's possible in the web development landscape.
+      </p>
+      <p>
+        I'm excited about the journey ahead, seeking new challenges, 
+        and eagerly anticipating the opportunity to work on exciting projects. If you're looking for a dedicated developer who's not only passionate but also brings a unique perspective from another industry, I'd love to connect and explore how we can collaborate to bring your ideas to life.
+      </p> 
+      <p>
+        Let's embark on this web development adventure together!
+      </p>
+    </section>
+
+    <!-- MY WORK Section -->
+    <section class="page-section work-section" id="work">
+      <h2><span>MY WO</span>RK</h2>
+
+        <!-- Work Block (Highlight) -->
+        <div class="work-block-style work-highlight">
+          <a href="https://github.com/jimmygian/audio_operations" target="_blank">
+            <img id="audio-op-img" src="./assets/images/work1-audio-operations.jpg" alt="Screenshot of project 'audio operations'">
+          </a>    
+          <div class="work-img-label">
+            <label for="audio-op-img">AUDIO OPERATIONS</label>
+          </div>
+        </div>
+
+        <!-- Work Container -->
+        <div class="work-container">
+          <!-- Work Block (Regular) -->
+          <div class="work-block-style work-block-item">
+            <a href="https://jimmygian.github.io/horiseonRefactoring/" target="_blank">
+              <img id="horiseon-ref-img" src="./assets/images/work3-horiseon-refactoring.png" alt="Screenshot of project 'horiseon refactoring'">
+              <div class="work-img-label">
+                <label for="horiseon-ref-img">PAGE REFACTORING</label>
+              </div>
+            </a>    
+          </div>
+
+          <!-- Work Block (Regular) -->
+          <div class="work-block-style work-block-item">
+            <a href="https://jimmygian.github.io/portfolio-dimgiannoulis/" target="_blank">
+              <img id="web-portfolio-img" src="./assets/images/work2-web-portfolio.png" alt="Screenshot of project 'web portfolio'">
+              <div class="work-img-label">
+                <label for="web-portfolio-img">WEB PORTFOLIO PAGE</label>
+              </div>
+            </a>    
+          </div>
+        </div>
+    </section>
+
+    <!-- CONTACT Section -->
+    <section class="page-section contact-section" id="contact">
+      
+      <h2>CONTACT</h2>
+
+      <!-- Contact container -->
+      <div class="contact-container">
+
+        <div class="contact-item" id="email">
+          <img src="./assets/images/email-icon-white.svg" alt="email icon">
+          <a href="mailto:email@gmail.com">dimitris@gmail.com</a>
+        </div>
+
+        <div class="contact-item" id="phone">
+          <img src="./assets/images/phone-icon-white2.svg" alt="phone icon">
+          <a href="tel:+123456789">+44 7812 345678</a>
+        </div>
+
+        <div class="contact-item" id="email">
+          <img src="./assets/images/address-icon-white.svg" alt="address icon">
+          <a href="https://maps.app.goo.gl/AwFnoWTMUNjK21oD9" target="_blank">London, UK</p>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>

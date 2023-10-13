@@ -1,0 +1,36 @@
+/* CSS Custom Properties */
+:root {
+    --header-color: rgb(120, 120, 125);
+    --dark-bg: rgb(26, 26, 26);
+    --dark-txt: rgb(20, 20, 20);
+    --light-txt: white;
+    --light-txt-secondary: rgb(158, 158, 158);
+    --light-section-bg: rgb(231, 231, 231);
+    --txt-bg-style: rgb(88, 247, 125);
+}
+
+/* html starting size */
+html {
+    font-size: 16px;
+}
+
+
+
+/* ------------------- */
+
+
+/* Basic Element Sizes */
+
+body {
+    max-width: 100rem;
+    margin: auto;
+}
+h1 {
+    font-size: 2rem;
+}
+h2 {
+    font-size: 1.125rem;
+}
+h3, h4, h5 {
+    font-size: 1rem;
+}

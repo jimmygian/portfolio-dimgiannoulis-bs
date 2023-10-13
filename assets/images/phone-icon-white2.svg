@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89.98 89.98">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <path id="Phone" class="cls-1" d="m35.48,54.49c-5.22-5.22-9.67-11.21-13.16-17.78h0c-.36-.68-.23-1.55.37-2.09l8.3-7.5L23.9,3.45H3.48c.91,45.46,37.58,82.14,83.05,83.05v-20.42l-23.67-7.09-7.4,8.18c-.5.67-1.43.89-2.19.49-6.57-3.5-12.56-7.95-17.78-13.16Z"/>
+</svg>
