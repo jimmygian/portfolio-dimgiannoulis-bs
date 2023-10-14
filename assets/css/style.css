@@ -80,12 +80,12 @@ h1, h2, h3, h3, h5 {
 /* Hero Name Box */
 
 .hero-name-box h2 {
-    font-size: min(3rem, max(2rem, 4vw));
+    /* font-size: min(3rem, max(2rem, 4vw)); */
     text-shadow: 5px 5px 10px rgb(52, 52, 52);
     font-weight: bold;
 } 
 .hero-name-box h3 {
-    font-size: min(3rem, max(2rem, 4vw));
+    /* font-size: min(3rem, max(2rem, 4vw)); */
     color: var(--dark-txt);
     background: var(--txt-bg-style);
     font-weight: bold;
