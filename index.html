@@ -18,62 +18,74 @@
 
   <header>
 
-    <!-- Navigation -->
-    <nav id="nav-bar" class="navbar navbar-dark navbar-expand-sm bg-dark nav-container">
-      
-      <!-- Title -->
-      <a class="navbar-brand ms-4 text-light" href="#">Portfolio</a>
 
-      <!-- Sandwich button -->
+    <!-- <nav id="nav-bar" class="navbar navbar-expand-sm bg-dark navbar-dark nav-container">
+      
+
+      <a class="navbar-brand ms-4" href="#">Portfolio</a>
+
+
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
-      </button>
-      
+      </button>    
+
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <div class="container-fluid">
-          <ul class="navbar-nav" style="justify-content:flex-end;">
+          <ul class="navbar-nav justify-content-end">
             <li class="nav-item">
-              <a class="nav-link text-light" href="#about" class="nav-item">About me</a>             
+              <a class="nav-link" href="#about" class="nav-item">About me</a>             
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light" href="#work" class="nav-item">My work</a>
+              <a class="nav-link" href="#work" class="nav-item">My work</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light" href="#contact" class="nav-item">Contact</a>
+              <a class="nav-link" href="#contact" class="nav-item">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav> -->
+
+
+    
+    <!-- Hero Container -->
+    <div class="container-fluid hero-container">
+      <div class="row">
+        <!-- Hero Left (only on desktop mode / mobile landscape) -->
+        <nav class="col-3 navbar flex-column bg-dark navbar-dark hero-side">
+          <a class="navbar-brand" href="#">PORTFOLIO</a>
+          <ul class="navbar-nav">
+            <li class="navbar-item">
+              <a class="nav-link" href="#about" class="hero-nav-item">About me</a>              
+            </li>
+            <li class="navbar-item">
+              <a class="nav-link" href="#work" class="hero-nav-item">My work</a>        
+            </li>
+            <li class="navbar-item">
+              <a class="nav-link" href="#contact" class="hero-nav-item">Contact</a>
             </li>
           </ul>
 
-
-
-        </div>
-      </div>
-    </nav>
-  
-    <!-- Hero Container -->
-    <div class="hero-container">
-
-      <!-- Hero Left (only on desktop mode / mobile landscape) -->
-      <div class="hero-side">
-        <h1>PORTFOLIO</h1>
-        <nav id="hero-nav-bar" class="hero-nav-container">
-          <a href="#about" class="hero-nav-item">About me</a>
-          <a href="#work" class="hero-nav-item">My work</a>
-          <a href="#contact" class="hero-nav-item">Contact</a>
         </nav>
-      </div>
-      
-      <!-- Hero Right -->
-      <div class="hero-main">
-        <!-- picture / name -->
-        <div class="hero-pic">
-          <div class="hero-name-box">
-            <h2>DIMITRIS GIANNOULIS</h2>
-            <h3>Web Developer</h3>
+        
+        <!-- Hero Right -->
+        <div class="col-9 hero-main p-0">
+          <!-- picture / name -->
+          <div class="hero-pic">
+            <div class="container hero-name-box">
+              <h2>DIMITRIS GIANNOULIS</h2>
+              <h3>Web Developer</h3>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+      </div>
   </header>
+
+
+
+
+
 
 
   <!-- ** Main ** -->

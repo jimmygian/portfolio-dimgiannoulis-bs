@@ -12,6 +12,7 @@
 /* html starting size */
 html {
     font-size: 16px;
+    
 }
 
 
@@ -20,8 +21,8 @@ html {
 
 
 /* Basic Element Sizes */
-/* 
-body {
+
+/* body {
     max-width: 100rem;
     margin: auto;
 }
@@ -33,5 +34,63 @@ h2 {
 }
 h3, h4, h5 {
     font-size: 1rem;
+} */
+
+h1, h2, h3, h3, h5 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-  */
+ 
+
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    /* overflow: hidden; */
+}
+
+.hero-pic {
+    background-image: url(../images/profile-pic2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100vh;
+}
+
+.hero-name-box {
+    max-width: fit-content;
+    position: relative;
+    top: 70vh;
+    right: 17vw;
+    color: var(--light-txt);
+}
+
+
+.hero-side h1 {
+    color: var(--light-txt);
+    text-align: center;
+    margin: 1rem;
+}
+.hero-main nav {
+    margin: 1rem;
+}
+
+/* Hero Name Box */
+
+.hero-name-box h2 {
+    font-size: min(3rem, max(2rem, 4vw));
+    text-shadow: 5px 5px 10px rgb(52, 52, 52);
+    font-weight: bold;
+} 
+.hero-name-box h3 {
+    font-size: min(3rem, max(2rem, 4vw));
+    color: var(--dark-txt);
+    background: var(--txt-bg-style);
+    font-weight: bold;
+} 
+
+
+
+/* ------------------- */
