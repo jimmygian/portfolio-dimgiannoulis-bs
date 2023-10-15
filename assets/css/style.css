@@ -12,7 +12,7 @@
 /* html starting size */
 html {
     font-size: 16px;
-    
+
 }
 
 
@@ -36,14 +36,18 @@ h3, h4, h5 {
     font-size: 1rem;
 } */
 
-h1, h2, h3, h3, h5 {
+h1,
+h2,
+h3,
+h3,
+h5 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .display-6 {
     font-size: 1.5rem;
 }
- 
+
 
 
 .hero-container {
@@ -77,6 +81,7 @@ h1, h2, h3, h3, h5 {
     text-align: center;
     margin: 1rem;
 }
+
 .hero-main nav {
     margin: 1rem;
 }
@@ -87,13 +92,14 @@ h1, h2, h3, h3, h5 {
     /* font-size: min(3rem, max(2rem, 4vw)); */
     text-shadow: 5px 5px 10px rgb(52, 52, 52);
     font-weight: bold;
-} 
+}
+
 .hero-name-box h3 {
     /* font-size: min(3rem, max(2rem, 4vw)); */
     color: var(--dark-txt);
     background: var(--txt-bg-style);
     font-weight: bold;
-} 
+}
 
 
 
@@ -101,7 +107,7 @@ h1, h2, h3, h3, h5 {
 
 /* Page Sections */
 
-  .page-section h2 span {
+.page-section h2 span {
     background: linear-gradient(to bottom, transparent 60%, var(--txt-bg-style) 40%);
     border-bottom: 0.25rem solid var(--txt-bg-style);
 }
@@ -115,7 +121,12 @@ h1, h2, h3, h3, h5 {
     border-radius: 0%;
 }
 
-
+/* Work Section (BG) */
+.work-section {
+    background-image: url(../images/section-bg.svg);
+    background-attachment: fixed;
+    background-repeat: repeat;
+}
 
 
 
@@ -127,11 +138,12 @@ h1, h2, h3, h3, h5 {
 @media (min-width: 576px) {
     .vertical-text {
         /* lr for left-to-right, tb for top-to-bottom */
-        writing-mode: vertical-lr; 
+        writing-mode: vertical-lr;
         transform: rotate(0deg);
         text-orientation: upright;
         /* white-space: nowrap; Prevent text from wrapping */
     }
+
     .page-section h2 span {
         background: linear-gradient(to left, transparent 60%, var(--txt-bg-style) 40%);
         border-left: 0.25rem solid var(--txt-bg-style);
