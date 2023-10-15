@@ -39,15 +39,19 @@ h3, h4, h5 {
 h1, h2, h3, h3, h5 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+.display-6 {
+    font-size: 1.5rem;
+}
  
 
 
 .hero-container {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    height: 75vh;
     width: 100%;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 .hero-pic {
@@ -56,14 +60,14 @@ h1, h2, h3, h3, h5 {
     background-repeat: no-repeat;
     background-size: cover;
     min-width: 100%;
-    min-height: 100vh;
+    height: 75vh;
 }
 
 .hero-name-box {
     max-width: fit-content;
     position: relative;
-    top: 70vh;
-    right: 17vw;
+    top: 52vh;
+    right: 9vw;
     color: var(--light-txt);
 }
 
@@ -94,3 +98,48 @@ h1, h2, h3, h3, h5 {
 
 
 /* ------------------- */
+
+/* Page Sections */
+
+  .page-section h2 span {
+    background: linear-gradient(to bottom, transparent 60%, var(--txt-bg-style) 40%);
+    border-bottom: 0.25rem solid var(--txt-bg-style);
+}
+
+.page-section p {
+    /* text-align: justify; */
+}
+
+#skills {
+    background-color: var(--light-section-bg);
+    border-radius: 0%;
+}
+
+
+
+
+
+/* ------------------- */
+
+
+/* Media Queries */
+
+@media (min-width: 576px) {
+    .vertical-text {
+        /* lr for left-to-right, tb for top-to-bottom */
+        writing-mode: vertical-lr; 
+        transform: rotate(0deg);
+        text-orientation: upright;
+        /* white-space: nowrap; Prevent text from wrapping */
+    }
+    .page-section h2 span {
+        background: linear-gradient(to left, transparent 60%, var(--txt-bg-style) 40%);
+        border-left: 0.25rem solid var(--txt-bg-style);
+        border-bottom: 0rem solid var(--txt-bg-style);
+    }
+}
+
+/* 
+@media screen and (orientation: landscape) {
+    ...
+} */
