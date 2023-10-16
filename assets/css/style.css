@@ -9,32 +9,23 @@
     --txt-bg-style: rgb(88, 247, 125);
 }
 
-/* html starting size */
-html {
-    font-size: 16px;
 
-}
 
 
 
 /* ------------------- */
 
 
-/* Basic Element Sizes */
+/* Global Elements */
 
-/* body {
+html {
+    font-size: 16px;
+}
+
+body {
     max-width: 100rem;
     margin: auto;
 }
-h1 {
-    font-size: 2rem;
-}
-h2 {
-    font-size: 1.125rem;
-}
-h3, h4, h5 {
-    font-size: 1rem;
-} */
 
 h1,
 h2,
@@ -44,11 +35,19 @@ h5 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+
+/* Bootstrap changed classes */
+
 .display-6 {
     font-size: 1.5rem;
 }
 
 
+
+/* ------------------- */
+
+
+/* Hero (Jumbotron) */
 
 .hero-container {
     display: flex;
@@ -57,7 +56,6 @@ h5 {
     width: 100%;
     overflow: hidden;
 }
-
 .hero-pic {
     background-image: url(../images/profile-pic2.jpg);
     background-position: center;
@@ -66,7 +64,6 @@ h5 {
     min-width: 100%;
     height: 75vh;
 }
-
 .hero-name-box {
     max-width: fit-content;
     position: relative;
@@ -74,26 +71,19 @@ h5 {
     right: 9vw;
     color: var(--light-txt);
 }
-
-
 .hero-side h1 {
     color: var(--light-txt);
     text-align: center;
     margin: 1rem;
 }
-
 .hero-main nav {
     margin: 1rem;
 }
-
-/* Hero Name Box */
-
 .hero-name-box h2 {
     /* font-size: min(3rem, max(2rem, 4vw)); */
     text-shadow: 5px 5px 10px rgb(52, 52, 52);
     font-weight: bold;
 }
-
 .hero-name-box h3 {
     /* font-size: min(3rem, max(2rem, 4vw)); */
     color: var(--dark-txt);
@@ -105,13 +95,13 @@ h5 {
 
 /* ------------------- */
 
-/* Page Sections */
+
+/* Sections */
 
 .page-section h2 span {
     background: linear-gradient(to bottom, transparent 60%, var(--txt-bg-style) 40%);
     border-bottom: 0.25rem solid var(--txt-bg-style);
 }
-
 .page-section p {
     /* text-align: justify; */
 }
@@ -136,6 +126,7 @@ h5 {
 /* Media Queries */
 
 @media (min-width: 576px) {
+
     .vertical-text {
         /* lr for left-to-right, tb for top-to-bottom */
         writing-mode: vertical-lr;
@@ -143,7 +134,6 @@ h5 {
         text-orientation: upright;
         /* white-space: nowrap; Prevent text from wrapping */
     }
-
     .page-section h2 span {
         background: linear-gradient(to left, transparent 60%, var(--txt-bg-style) 40%);
         border-left: 0.25rem solid var(--txt-bg-style);
