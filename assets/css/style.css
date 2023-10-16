@@ -177,6 +177,20 @@ a.card:hover {
 
 /* ------------------- */
 
+/* Contact */
+
+.contact-item {
+    margin-top: 3rem;
+    align-items: start;
+}
+.contact-item img {
+    max-width: 15px;
+}
+.contact-item a {
+    color: var(--light-txt-secondary);
+}
+
+
 
 /* Media Queries */
 
