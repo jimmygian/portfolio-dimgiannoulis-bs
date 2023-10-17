@@ -2,7 +2,10 @@
 
 This repository houses a web development project that demonstrates a responsive and dynamic portfolio webpage created using Bootstrap 5. This README.md file offers a detailed overview of the project, its motivations, technical implementation details, problems addressed, and insights gained during its development.
 
-![Deployed Website Screenshot](./assets/images/work2-web-portfolio.png)
+<img src="./assets/images/webpage-screenshot-1.png" alt="Deployed Website Screenshot 1" width="200" />
+<img src="./assets/images/webpage-screenshot-2.png" alt="Deployed Website Screenshot 2" width="800" />
+<img src="./assets/images/webpage-screenshot-3.png" alt="Deployed Website Screenshot 3" />
+
 
 ## Motivations
 
