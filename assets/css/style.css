@@ -51,6 +51,9 @@ small {
     font-size: 1.5rem;
 }
 
+a:hover {
+    text-shadow: 3px 3px 10px rgba(var(--white), 0.2);
+}
 
 
 /* ------------------- */
@@ -203,6 +206,11 @@ a.card:hover {
 }
 .contact-item a {
     color: var(--light-txt-secondary);
+}
+.contact-item a:hover {
+    text-shadow: 5px 5px 5px rgba(255, 255, 255, 0.1);
+    color: var(--light-txt);
+    font-size: larger;
 }
 
 
