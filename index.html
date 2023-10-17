@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Dimitris G // Web Developer</title>
-  <!-- <link rel="stylesheet" href="./assets/css/reset.css" /> -->
+  <link rel="stylesheet" href="./assets/css/reset.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="./assets/css/style.css" />
@@ -15,11 +15,14 @@
 
 <body>
 
+
   <!-- ** Header ** -->
+
   <header>
 
-    <!-- Navbar: fixed (visible below md size / hamburger below sm size) -->
+    <!-- NAVBAR: fixed (visible below md size / hamburger below sm size) -->
     <nav id="nav-bar" class="position-sticky d-md-none navbar navbar-expand-sm bg-dark navbar-dark nav-container">
+
       <!-- Brand -->
       <a class="navbar-brand ms-4" href="#">PORTFOLIO</a>
 
@@ -29,11 +32,10 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <!-- Nav Items -->
-
       <!-- Connects items with hamburger button -->
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
+        <!-- Nav Items -->
         <div class="container-fluid">
           <ul class="navbar-nav justify-content-end">
             <li class="nav-item">
@@ -52,15 +54,19 @@
         </div>
 
       </div>
+
     </nav>
 
 
-    <!-- Hero Container -->
+    <!-- HERO Container -->
     <div class="container-fluid hero-container">
       <div class="row ">
+
         <!-- Hero Side nav-bar (visible above md size) -->
         <nav class="col-3 navbar d-none d-md-flex flex-column bg-dark navbar-dark hero-side">
+
           <a class="navbar-brand" href="#">PORTFOLIO</a>
+
           <ul class="navbar-nav">
             <li class="navbar-item">
               <a class="nav-link" href="#about" class="hero-nav-item">About me</a>
@@ -90,29 +96,34 @@
             </div>
 
           </div>
+
         </div>
+
+
       </div>
     </div>
+
   </header>
 
 
 
   <!-- ** Main ** -->
+
   <main>
 
+    <!-- Skills / About Me Container (same row above md size) -->
     <div class="container-fluid">
-
-
       <div class="row align-items-center">
 
+        <!-- SKILLS -->
         <div class="col-12 col-md-6">
-          <!-- SKILLS -->
           <section class="page-section container-fluid p-5" id="skills">
 
             <!-- Contains all section -->
             <div class="container">
 
               <div class="row">
+
                 <!-- Header -->
                 <div class="col-12 col-sm-1 section-header order-sm-2 order-md-1">
                   <h2 class="vertical-text display-6 m-2">S<span>KILLS</span></h2>
@@ -123,6 +134,7 @@
                   <div class="container">
                     <!-- Main Row -->
                     <div class="row">
+
                       <!-- Main Column -->
                       <div class="col-lg-3 text-lg-end m-3">
                         <div class="row">
@@ -140,6 +152,7 @@
                           </div>
                         </div>
                       </div>
+
                       <!-- Main Column -->
                       <div class="col-lg-3 text-lg-end m-3">
                         <div class="row">
@@ -157,6 +170,7 @@
                           </div>
                         </div>
                       </div>
+
                       <!-- Main Column -->
                       <div class="col-lg-3 text-lg-end m-3">
                         <div class="row">
@@ -174,18 +188,22 @@
                           </div>
                         </div>
                       </div>
-                    </div>
+
+                    </div> <!-- /Row -->
+
+
                   </div>
                 </div>
               </div>
+
             </div>
           </section>
 
         </div>
 
 
+        <!-- ABOUT ME -->
         <div class="col-12 col-md-6">
-          <!-- ABOUT ME -->
           <section class="page-section container-fluid p-5" id="about">
 
             <!-- Contains all section -->
@@ -220,8 +238,8 @@
     </div>
 
 
-    <!-- WORK -->
 
+    <!-- WORK -->
 
     <section class="page-section work-section container-fluid p-5" id="work">
 
@@ -338,22 +356,40 @@
 
   </main>
 
-  <footer class="container-fluid d-flex justify-content-center align-items-center flex-wrap bg-dark" style="height: 3rem;">
-    <p class="m-0 text-light">
-      Dimitris Giannoulis 2023
-    </p>
+  <footer class="footer container-fluid d-flex justify-content-center align-items-center flex-wrap bg-dark"
+    style="height: 3rem;">
 
-    <div class="d-flex">
-      <a href="https://twitter.com/" target="_blank">
-        <i class="fa-brands fa-github" style="color: #e0e0e0;"></i>
-      </a>
-      <a href="https://www.facebook.com/" target="_blank">
-        <i class="fa-brands fa-github" style="color: #e0e0e0;"></i>
-      </a>
-      <a href="https://www.facebook.com/" target="_blank">
-        <i class="fa-brands fa-github" style="color: #e0e0e0;"></i>
-      </a>
+    <div class="container-fluid">
+
+      <div class="row">
+
+        <div class="col-6 text-end">
+          <p class="m-0 text-light">
+            <small>
+              Dimitris Giannoulis 2023 ©
+            </small>
+          </p>
+        </div>
+
+        <div class="col-6">
+          <div class="d-flex">
+            <a class="ms-1 me-1" href="https://github.com/jimmygian" target="_blank">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a class="ms-1 me-1" href="https://www.facebook.com/" target="_blank">
+              <i class="fa fa-facebook-official" aria-hidden="true"></i>
+            </a>
+            <a class="ms-1 me-1" href="https://www.instagram.com/" target="_blank">
+              <i class="fa fa-instagram" aria-hidden="true"></i></i>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
     </div>
+
+
 
   </footer>
 
